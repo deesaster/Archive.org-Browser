@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92887234146F37CC0027FE5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92887233146F37CC0027FE5C /* UIKit.framework */; };
+		92887236146F37CC0027FE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92887235146F37CC0027FE5C /* Foundation.framework */; };
+		92887238146F37CC0027FE5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92887237146F37CC0027FE5C /* CoreGraphics.framework */; };
+		9288723E146F37CC0027FE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9288723C146F37CC0027FE5C /* InfoPlist.strings */; };
+		92887240146F37CC0027FE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9288723F146F37CC0027FE5C /* main.m */; };
+		92887244146F37CC0027FE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92887243146F37CC0027FE5C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9288722F146F37CC0027FE5C /* BadAssery2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadAssery2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92887233146F37CC0027FE5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92887235146F37CC0027FE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92887237146F37CC0027FE5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9288723B146F37CC0027FE5C /* BadAssery2-Info.plist */ = {isa = PBXFileReference; path = "BadAssery2-Info.plist"; sourceTree = "<group>"; };
+		9288723D146F37CC0027FE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9288723F146F37CC0027FE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92887241146F37CC0027FE5C /* BadAssery2-Prefix.pch */ = {isa = PBXFileReference; path = "BadAssery2-Prefix.pch"; sourceTree = "<group>"; };
+		92887242146F37CC0027FE5C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		92887243146F37CC0027FE5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9288722C146F37CC0027FE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92887234146F37CC0027FE5C /* UIKit.framework in Frameworks */,
+				92887236146F37CC0027FE5C /* Foundation.framework in Frameworks */,
+				92887238146F37CC0027FE5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92887224146F37CC0027FE5C = {
+			isa = PBXGroup;
+			children = (
+				92887239146F37CC0027FE5C /* BadAssery2 */,
+				92887232146F37CC0027FE5C /* Frameworks */,
+				92887230146F37CC0027FE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92887230146F37CC0027FE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9288722F146F37CC0027FE5C /* BadAssery2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92887232146F37CC0027FE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92887233146F37CC0027FE5C /* UIKit.framework */,
+				92887235146F37CC0027FE5C /* Foundation.framework */,
+				92887237146F37CC0027FE5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92887239146F37CC0027FE5C /* BadAssery2 */ = {
+			isa = PBXGroup;
+			children = (
+				92887242146F37CC0027FE5C /* AppDelegate.h */,
+				92887243146F37CC0027FE5C /* AppDelegate.m */,
+				9288723A146F37CC0027FE5C /* Supporting Files */,
+			);
+			path = BadAssery2;
+			sourceTree = "<group>";
+		};
+		9288723A146F37CC0027FE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9288723B146F37CC0027FE5C /* BadAssery2-Info.plist */,
+				9288723C146F37CC0027FE5C /* InfoPlist.strings */,
+				9288723F146F37CC0027FE5C /* main.m */,
+				92887241146F37CC0027FE5C /* BadAssery2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9288722E146F37CC0027FE5C /* BadAssery2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92887247146F37CC0027FE5C /* Build configuration list for PBXNativeTarget "BadAssery2" */;
+			buildPhases = (
+				9288722B146F37CC0027FE5C /* Sources */,
+				9288722C146F37CC0027FE5C /* Frameworks */,
+				9288722D146F37CC0027FE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadAssery2;
+			productName = BadAssery2;
+			productReference = 9288722F146F37CC0027FE5C /* BadAssery2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92887226146F37CC0027FE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Leetr.com;
+			};
+			buildConfigurationList = 92887229146F37CC0027FE5C /* Build configuration list for PBXProject "BadAssery2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92887224146F37CC0027FE5C;
+			productRefGroup = 92887230146F37CC0027FE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9288722E146F37CC0027FE5C /* BadAssery2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9288722D146F37CC0027FE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288723E146F37CC0027FE5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9288722B146F37CC0027FE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92887240146F37CC0027FE5C /* main.m in Sources */,
+				92887244146F37CC0027FE5C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9288723C146F37CC0027FE5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9288723D146F37CC0027FE5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92887245146F37CC0027FE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92887246146F37CC0027FE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92887248146F37CC0027FE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadAssery2/BadAssery2-Prefix.pch";
+				INFOPLIST_FILE = "BadAssery2/BadAssery2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92887249146F37CC0027FE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadAssery2/BadAssery2-Prefix.pch";
+				INFOPLIST_FILE = "BadAssery2/BadAssery2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92887229146F37CC0027FE5C /* Build configuration list for PBXProject "BadAssery2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92887245146F37CC0027FE5C /* Debug */,
+				92887246146F37CC0027FE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92887247146F37CC0027FE5C /* Build configuration list for PBXNativeTarget "BadAssery2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92887248146F37CC0027FE5C /* Debug */,
+				92887249146F37CC0027FE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92887226146F37CC0027FE5C /* Project object */;
+}
