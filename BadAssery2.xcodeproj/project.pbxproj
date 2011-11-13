@@ -13,6 +13,8 @@
 		9288723E146F37CC0027FE5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9288723C146F37CC0027FE5C /* InfoPlist.strings */; };
 		92887240146F37CC0027FE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9288723F146F37CC0027FE5C /* main.m */; };
 		92887244146F37CC0027FE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92887243146F37CC0027FE5C /* AppDelegate.m */; };
+		9288724D146F380F0027FE5C /* ArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9288724B146F380F0027FE5C /* ArchiveViewController.m */; };
+		9288724E146F380F0027FE5C /* ArchiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9288724C146F380F0027FE5C /* ArchiveViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		92887233146F37CC0027FE5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		92887235146F37CC0027FE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92887237146F37CC0027FE5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9288723B146F37CC0027FE5C /* BadAssery2-Info.plist */ = {isa = PBXFileReference; path = "BadAssery2-Info.plist"; sourceTree = "<group>"; };
+		9288723B146F37CC0027FE5C /* BadAssery2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BadAssery2-Info.plist"; sourceTree = "<group>"; };
 		9288723D146F37CC0027FE5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9288723F146F37CC0027FE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92887241146F37CC0027FE5C /* BadAssery2-Prefix.pch */ = {isa = PBXFileReference; path = "BadAssery2-Prefix.pch"; sourceTree = "<group>"; };
-		92887242146F37CC0027FE5C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		92887241146F37CC0027FE5C /* BadAssery2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BadAssery2-Prefix.pch"; sourceTree = "<group>"; };
+		92887242146F37CC0027FE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92887243146F37CC0027FE5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9288724A146F380F0027FE5C /* ArchiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveViewController.h; sourceTree = "<group>"; };
+		9288724B146F380F0027FE5C /* ArchiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveViewController.m; sourceTree = "<group>"; };
+		9288724C146F380F0027FE5C /* ArchiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArchiveViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,9 @@
 		92887224146F37CC0027FE5C = {
 			isa = PBXGroup;
 			children = (
+				9288724A146F380F0027FE5C /* ArchiveViewController.h */,
+				9288724B146F380F0027FE5C /* ArchiveViewController.m */,
+				9288724C146F380F0027FE5C /* ArchiveViewController.xib */,
 				92887239146F37CC0027FE5C /* BadAssery2 */,
 				92887232146F37CC0027FE5C /* Frameworks */,
 				92887230146F37CC0027FE5C /* Products */,
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9288723E146F37CC0027FE5C /* InfoPlist.strings in Resources */,
+				9288724E146F380F0027FE5C /* ArchiveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				92887240146F37CC0027FE5C /* main.m in Sources */,
 				92887244146F37CC0027FE5C /* AppDelegate.m in Sources */,
+				9288724D146F380F0027FE5C /* ArchiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

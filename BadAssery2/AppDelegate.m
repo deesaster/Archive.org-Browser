@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ArchiveViewController.h"
 
 @implementation AppDelegate
 
@@ -23,6 +24,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    ArchiveViewController *viewcontroller = [[ArchiveViewController alloc] initWithNibName:@"ArchiveViewController" bundle:[NSBundle mainBundle]];
+    self.window.rootViewController = viewcontroller;
+    [viewcontroller release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
